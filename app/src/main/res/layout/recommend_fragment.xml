@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".ui.Recommendation.RecommendFragment"
+    android:background="@drawable/logo2"
+    android:orientation="vertical"
+    android:gravity="center"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/cantik2"
+        android:text="Kami memberikan rekomendasi berdasarkan masalah kulit anda"
+        android:textColor="@color/colorBlack"
+        android:textSize="30sp"
+        android:padding="15dp"
+        android:gravity="center_horizontal"
+        android:textStyle="normal" />
+
+    <RelativeLayout
+
+        android:layout_width="150dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center_horizontal"
+            android:textColor="@color/colorWhite"
+            android:text="Sabun Muka"
+            android:fontFamily="@font/cantik2"
+            android:textSize="35sp"
+            android:elevation="10dp"/>
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:id="@+id/bt_sabunmuka"
+            android:textColor="@color/colorWhite"
+            />
+    </RelativeLayout>
+    <RelativeLayout
+
+        android:layout_width="150dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center_horizontal"
+            android:textColor="@color/colorWhite"
+            android:text="Toner"
+            android:fontFamily="@font/cantik2"
+            android:textSize="35sp"
+            android:elevation="10dp"/>
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:id="@+id/bt_toner"
+            android:textColor="@color/colorWhite"
+            />
+    </RelativeLayout>
+    <RelativeLayout
+
+        android:layout_width="150dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center_horizontal"
+            android:textColor="@color/colorWhite"
+            android:text="Serum"
+            android:fontFamily="@font/cantik2"
+            android:textSize="35sp"
+            android:elevation="10dp"/>
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:id="@+id/bt_serum"
+            android:textColor="@color/colorWhite"
+            />
+    </RelativeLayout>
+    <RelativeLayout
+
+        android:layout_width="150dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center_horizontal"
+            android:textColor="@color/colorWhite"
+            android:text="Moisturizer"
+            android:fontFamily="@font/cantik2"
+            android:textSize="35sp"
+            android:elevation="10dp"/>
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:id="@+id/bt_moisturizer"
+            android:textColor="@color/colorWhite"
+            />
+    </RelativeLayout>
+
+</LinearLayout>

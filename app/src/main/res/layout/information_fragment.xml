@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.InformasiK.InformationFragment"
+    android:background="@drawable/logo2">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Saya menemukan masalah pada kulit anda"
+            android:textSize="35sp"
+            android:layout_marginTop="25dp"
+            android:fontFamily="@font/cantik2"
+            android:textColor="@color/colorBlack"
+            android:gravity="center_horizontal"/>
+
+        <ImageView
+            android:id="@+id/iv_information"
+            android:layout_width="350dp"
+            android:layout_height="300dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/hasil_gambar" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/cantik2"
+            android:textSize="28sp"
+            android:textColor="@color/colorBlack"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:text="Berdasarkan hasil gambar, masalah kulit anda saat ini adalah :"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_jerawat"
+        android:text="Berjerawat"
+        android:layout_margin="15dp"
+        android:textSize="35sp"
+        android:gravity="center"
+        android:fontFamily="@font/cantik2"
+        android:textColor="@color/colorBlack"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_jerawat2"
+        android:text="Jerawat adalah masalah kulit yang terjadi ketika folikel rambut atau tempat tumbuhnya rambut tersumbat oleh minyak dan sel kulit mati. Kondisi ini umumnya ditandai dengan munculnya bintik-bintik pada beberapa bagian tubuh, seperti wajah, leher, punggung, dan dada"
+        android:fontFamily="@font/cantik2"
+        android:textSize="28sp"
+        android:layout_marginRight="18dp"
+        android:layout_marginLeft="18dp"
+        android:textColor="@color/colorBlack"/>
+
+        <RelativeLayout
+            android:layout_width="150dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:gravity="center_horizontal"
+                android:textColor="@color/colorWhite"
+                android:text="Next"
+                android:fontFamily="@font/cantik2"
+                android:textSize="35sp"
+                android:elevation="10dp"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorWhite"
+                />
+        </RelativeLayout>
+
+
+</LinearLayout>

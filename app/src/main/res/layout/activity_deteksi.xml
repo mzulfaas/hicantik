@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/logo2"
+    tools:context=".Deteksi">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true">
+
+
+
+        <ImageView
+            android:id="@+id/imGambar"
+            android:layout_width="500px"
+            android:layout_height="500px"
+            android:src="@mipmap/ic_launcher"
+            android:layout_gravity="center"></ImageView>
+
+        <Button
+            android:id="@+id/btnAmbil"
+            android:layout_width="300px"
+            android:layout_height="wrap_content"
+            android:text="Ambil Gambar"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            />
+
+        <Button
+            android:id="@+id/btnPrediksi"
+            android:layout_width="300px"
+            android:layout_height="wrap_content"
+            android:text="Prediksi"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            />
+
+
+    </LinearLayout>
+
+</RelativeLayout>

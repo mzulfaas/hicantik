@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Hai Cantik</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="tittle_profile">profile</string>
+    <string name="skin_information">informasikulit</string>
+    <string name="tittle_recommends">recommends</string>
+    <string name="tittle_Rekomendasi">Rekomendasi</string>
+    <string name="Rekomendasi">Rekomendasi</string>
+    <string name="recommend">Rekomendasi</string>
+    <string name="information">Informasi Kulit</string>
+    <string name="product">Notifikasi</string>
+    <string name="profile">profile</string>
+    <string name="InformasiProduk">Informasi Produk</string>
+    <string name="Product">Informasi Produk</string>
+    <string name="berjerawat">Berjerawat</string>
+    <string name="dana_pratiwi">Dana Pratiwi</string>
+    <string name="sabun_muka">Sabun Muka</string>
+</resources>

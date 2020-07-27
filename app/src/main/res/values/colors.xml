@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00796b</color>
+    <color name="colorPrimaryDark">#00695C</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorWhite">#fff</color>
+    <color name="colorOriginalPink">#FFC0CB</color>
+    <color name="colorLightPink">#FFB6C1</color>
+    <color name="colorHTMLPink">#FFC0CB</color>
+    <color name="colorSaturasi">#FFB8C6</color>
+    <color name="colorIndianPink">#CD5C5C</color>
+    <color name="colorRed">#FF0000</color>
+    <color name="colorLightCoral">#F08080</color>
+    <color name="colorHotPink">#FF69B4</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorTomato">#FF6347</color>
+    <color name="colorPeach">#FFDAB9</color>
+    <color name="colorGold">#FFD700</color>
+    <color name="colorKhaki">#F0E68C</color>
+    <color name="colorNavajoWhite">#FFDEAD</color>
+    <color name="colorSkyBlue">#87CEFA</color>
+    <color name="colorNavy">#000080</color>
+    <color name="colorBlue">#0000FF</color>
+    <color name="colorMidnightBlue">#0000CD</color>
+    <color name="colorAqua">#00FFFF</color>
+    <color name="colorFix">#ee826c</color>
+</resources>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".input_data"
+    android:background="@drawable/logo2">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ll_jeniskulit"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Apa jenis kulit anda?"
+            android:textSize="20sp"
+            android:gravity="left"
+            android:textStyle="bold"
+            android:textColor="@color/colorBlack" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_vertical"
+            >
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/rb_berminyak"
+                android:text="Berminyak"
+                android:textSize="20sp"
+                >
+
+            </RadioButton>
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/rb_kering"
+                android:text="Kering"
+                android:textSize="20sp"
+                >
+            </RadioButton>
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/rb_sensitif"
+                android:text="Sensitif"
+                android:textSize="20sp"
+                >
+            </RadioButton>
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rentan usia anda?"
+            android:layout_marginTop="30dp"
+            android:textSize="20sp"
+            android:gravity="left"
+            android:textStyle="bold"
+            android:textColor="@color/colorBlack" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_vertical"
+            >
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/rb_1725tahun"
+                android:text="17-25 tahun"
+                android:textSize="20sp"
+                >
+            </RadioButton>
+
+            <RadioButton
+                android:id="@+id/rb_2635tahun"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="26-35 tahun"
+                android:textSize="20sp"></RadioButton>
+        </RadioGroup>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </RadioGroup>
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:text="Next"
+            android:layout_marginTop="45dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/colorWhite"
+            />
+    </LinearLayout>
+</ScrollView>
